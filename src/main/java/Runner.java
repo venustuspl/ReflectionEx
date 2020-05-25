@@ -7,6 +7,7 @@ public class Runner {
         constructor.setAccessible(true);
         Object trickyObj = constructor.newInstance("Java Start");
         trickyObj.getClass().getDeclaredMethod("show").invoke(trickyObj);
+        trickyObj.getClass().getDeclaredMethod("getDateTime").invoke(trickyObj);
 
-    }
+    } 
 }

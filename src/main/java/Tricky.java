@@ -1,3 +1,6 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 public class Tricky {
     private  String field;
 
@@ -7,5 +10,9 @@ public class Tricky {
 
     void show() {
         System.out.println(field);
+    }
+
+    void getDateTime () {
+        System.out.println(LocalDateTime.now());
     }
 }
